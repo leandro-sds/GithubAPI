@@ -1,0 +1,11 @@
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\bin\Debug\netcoreapp2.0\GithubAPI.deps.json
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\bin\Debug\netcoreapp2.0\GithubAPI.runtimeconfig.json
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\bin\Debug\netcoreapp2.0\GithubAPI.runtimeconfig.dev.json
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\bin\Debug\netcoreapp2.0\GithubAPI.dll
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\bin\Debug\netcoreapp2.0\GithubAPI.pdb
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.csprojAssemblyReference.cache
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.csproj.CoreCompileInputs.cache
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.AssemblyInfoInputs.cache
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.AssemblyInfo.cs
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.dll
+D:\Documentos\dev\Visual Studio 2017\Connectlead\GithubAPI\obj\Debug\netcoreapp2.0\GithubAPI.pdb
