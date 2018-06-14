@@ -1,0 +1,15 @@
+﻿@{
+	 @model List<Repositorio>
+	 ViewData["Title"] = "Minha Lista de Repositórios";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<ul>
+	 @{
+		  foreach (Repositorio repo in Model) {
+				<li><a href="@repo.RepoURL" target="_blank">@repo.Nome</a></li>
+		  }
+	 }
+</ul>
+
