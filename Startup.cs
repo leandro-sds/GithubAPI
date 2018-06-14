@@ -43,7 +43,7 @@ namespace GithubAPI
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Connectlead}/{action=Index}/{id?}");
+                    template: "{controller=GithubAPI}/{action=Index}/{id?}");
             });
         }
     }

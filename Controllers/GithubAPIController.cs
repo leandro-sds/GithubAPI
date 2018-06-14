@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GithubAPI.Controllers
 {
-    public class ConnectleadController : Controller
+    public class GithubAPIController : Controller
     {
         private readonly AcessaAPI api = new AcessaAPI();
 
