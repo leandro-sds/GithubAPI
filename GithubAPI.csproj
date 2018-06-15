@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\SingleRepoObject.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Views\teste.html" />
   </ItemGroup>
 

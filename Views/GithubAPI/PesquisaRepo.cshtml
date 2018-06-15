@@ -1,0 +1,27 @@
+﻿@{
+	 @model List<Repositorio>
+	 ViewData["Title"] = "PesquisaRepo";
+}
+
+<h2>Pesquisar repositórios por nome</h2>
+
+<form asp-controller="GithubAPI" asp-action="PesquisaRepo" method="get">
+	 <label>Nome do repositório</label>
+	 <input type="text" name="termoPesquisa" value="" />
+	 <input type="submit" value="Pesquisar" />
+</form>
+
+<br />
+
+@{
+	 if (Model != null) {
+	 	  <h4>Resultados para @ViewData["pesquisa"]</h4>
+
+		  var resultPesquisa = Model.Take(70);
+		  <ol>
+		  	 @foreach (Repositorio repo in resultPesquisa) {
+		  		<li><a asp-controller="GithubAPI" asp-action="ExibeDetalhes" asp-route-id="@repo.RepoID">@repo.Name</a></li>
+			}
+		  </ol>
+	 }
+}

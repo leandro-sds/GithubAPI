@@ -8,7 +8,7 @@
 <ul>
 	 @{
 		  foreach (Repositorio repo in Model) {
-				<li><a href="@repo.RepoURL" target="_blank">@repo.Nome</a></li>
+				<li><a asp-controller="GithubAPI" asp-action="ExibeDetalhes" asp-route-id="@repo.RepoID">@repo.Name</a></li>
 		  }
 	 }
 </ul>

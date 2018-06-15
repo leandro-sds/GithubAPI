@@ -1,0 +1,21 @@
+﻿@model Repositorio
+
+<h2>Detalhes do Repositório</h2>
+<br />
+
+<p>Nome:  @Model.Name </p>
+<p>Descrição:  @Model.Description </p>
+<p>Última Atualização: @Model.DataUpdate </p>  
+<p>Dono: @Model.Owner </p>
+<p>Linguagem: @Model.Language </p>
+
+<h4>Contribuidores do Projeto</h4>
+
+@{
+	foreach (var cont in Model.Contributors) {
+		  <p>@cont</p>
+	}
+}
+
+
+
