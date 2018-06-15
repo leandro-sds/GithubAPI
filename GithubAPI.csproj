@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Home\**" />
+    <Content Remove="Views\Home\**" />
+    <EmbeddedResource Remove="Views\Home\**" />
+    <None Remove="Views\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\FavList.cs" />
+    <Compile Remove="Models\ManipulaJSON.cs" />
     <Compile Remove="Models\SingleRepoObject.cs" />
   </ItemGroup>
 
